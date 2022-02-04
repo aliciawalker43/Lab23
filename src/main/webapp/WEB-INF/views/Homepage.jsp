@@ -29,9 +29,17 @@
 					<td><a href="/grades/delete?id=${grade.id}" >Delete</a></td>
 				</tr>
 				</c:forEach>
+				
 			</tbody>
 		</table>
 		<a href="/grades/add" class="btn btn-secondary">Add Grade</a>
+	
+	</div>
+	
+	<div>
+	<p><h2> Score total: ${scoretotal} </h2><br>
+	 <h2>Possible Points Total: ${total}</h2>
+	</p>
 	</div>
 </body>
 </html>

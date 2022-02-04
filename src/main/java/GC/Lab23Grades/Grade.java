@@ -71,6 +71,14 @@ public class Grade {
 	}
 
     
-
+ private static double getSum(double[]total) {
+	 double sum=0;
+	 
+	 for (double tot: total)
+		 sum+= tot;
+	 
+	 
+	 return sum;
+ }
 	
 }
